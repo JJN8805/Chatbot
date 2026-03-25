@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-genai.configure(api_key="AIzaSyDRGAkCVC-JVQ6kKntpVxPz33I8_2RKPKE")  # Replace with your Gemini API key
+genai.configure(api_key="AIzaSyDRGA")  # Replace with your Gemini API key
 
 # File to store chat history
 HISTORY_FILE = "chat_history.txt"
